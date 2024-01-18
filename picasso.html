@@ -1,20 +1,34 @@
-<!--Sets the document type.-->
+<!-- Sets the document type: -->
 <!DOCTYPE html>
-<!--Sets the webpage language type.-->
+<!-- Sets the webpage language type: -->
 <html lang="en">
-    <!--Formatting and Data:-->
+    <!-- Formatting and Data(HEAD TAGS): -->
     <head>
-        <!--Sets the Charset & formats the webpage for multi devices.-->
+        <!-- Sets the charset & formats the webpage: -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--A CSS reference.-->
-        <!--The CSS file referenced sets the webpage's formatting.-->
+        <!-- The CSS file referenced below sets the webpage's stylization and element formatting: -->
         <link rel="stylesheet" href="stylesheet.css">
-        <!--Sets a title for the browser tab.-->
+        <!-- Sets a title for the browser tab/tag: -->
         <title>Picasso Painting</title>
     </head>
-    <!--The "Contents" of the web page.-->
+    <!-- The "Contents" of the web page: -->
     <body>
-        <div class="square"></div>
+        <!-- Defines "squares" as a group of objects to be placed in the webpage: -->
+        <div class="squares">
+            <!-- Defines the objects in the group as a "square": -->
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <!-- A "distinction" to let the page know the last "square" belongs to it's own class: -->
+            <div class="bigsquare"></div>
+        </div>
+        <!-- Defines "circles" as a group of objects to be placed in the webpage: -->
+        <div class="circles">
+            <!-- Defines the objects in the group as a "circle": -->
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
     </body>
 </html>
